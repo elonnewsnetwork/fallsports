@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>Elon News Network 2017 Fall Sports Preview</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Merriweather", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("https://s3.amazonaws.com/media.etp/18452_1693_football_gardnerwebb_hartmann__8_of_38f.jpg");
+    width: 100%;
+    min-height: 100%;
+
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="http://www.elonnewsnetwork.com/" class="w3-bar-item w3-button">ELON NEWS NETWORK</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="http://www.elonnewsnetwork.com/" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:wrap;">
+    <span class="w3-left w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity;">FALL SPORTS PREVIEW</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about" align="center">
+    <a href="http://www.elonnewsnetwork.com/fresh-start-football-elon"><label for="football" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(222, 88, 0);"><h3>Football looks to<br> increase physicality</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18464_football_photo_2f.jpg" alt="Article Headline" id="football"  width="250" height="250" placeholder="Football article"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/elon-mens-soccer-preview-2017"><label for="mens soccer" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(74, 209, 148);"><h3>New coach,<br> new mindset, more wins</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18456_mens_soccerf.jpg" alt="Article Headline" id="mens soccer"  width="250" height="250" padding="10"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/womens-soccer-kicks-off-new-season"><label for="womens soccer" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(47, 79, 198);"><h3>Women's soccer <br>kicks off new season</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18458_womens_soccerf.jpg" alt="Article Headline" id="womens soccer"  width="250" height="250"></label></a>
+    
+    <br>
+    
+    <a href="http://www.elonnewsnetwork.com/elon-volleyball-setting-up-for-new-season"><label for="volleyball" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(219, 198, 5);"><h3>Volleyball sets up<br> for a new season</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18461_volleyballf.jpg" alt="Article Headline" id="volleyball"  width="250" height="250" placeholder="Football article"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/ciolkowski-eyes-new-goals"><label for="mens cross country" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(102, 66, 247);"><h3>Ciolkowski sets eyes<br> on third title</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18460_mens_cross_countryf.jpg" alt="Article Headline" id="mens cross country"  width="250" height="250" padding="10"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/offstein-path-to-recovery"><label for="womens cross country" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(102, 66, 247);"><h3>Molly's Offstein's<br> path to recovery</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18465_offsteinf.jpg" alt="Article Headline" id="womens cross country"  width="250" height="250"></label></a>
+    
+    <br>
+    
+    <a href="http://www.elonnewsnetwork.com/new-xc-coach-jermyn"><label for="cross country coach" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(102, 66, 247);"><h3>Cross country coach<br> chases new goals</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18462_cross_country_coachf.jpg" alt="Article Headline" id="cross country coach" width="250" height="250"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/elon-top-fall-games-2017"><label for="games to watch" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(52, 199, 0);"><h3>Top fall sports<br> games of 2017</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18457_games_to_watchf.jpg" alt="Article Headline" id="games to watch"  width="250" height="250"></label></a>
+    
+    <a href="http://www.elonnewsnetwork.com/bodenarain-sga-school-spirit-increase"><label for="school spirit" style="display:inline-block; padding: 20px; text-decoration: underline; text-decoration-color: rgb(52, 199, 0);"><h3>New SGA president<br> brings a splash of spirit</h3><br><input type="image" src="https://s3.amazonaws.com/media.etp/18459_school_spiritf.jpg" alt="Article Headline" id="school spirit" width="250" height="250"></label></a>
+  
+
+    <!-- Hide this text on small devices -->
+    
+  </div>
+  
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+
+
+<!-- Container (Portfolio Section) -->
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+
+
+<!-- Container (Contact Section) -->
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
